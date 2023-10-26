@@ -1,0 +1,17 @@
+export enum ROUTES {
+  HOME = "/home",
+  JOB_SEARCH = "/job-search/:jobId?",
+  LOGIN = "/login",
+  PASSWORD_RECOVERY = "/password-recovery",
+  PASSWORD_RECOVERY_SENT = "/password-recovery/sent",
+  PASSWORD_RECOVERY_PROCESS = "/password-recovery/:token",
+  REGISTRATION = "/registration",
+  REGISTRATION_EMAIL_CONFIRMATION = "/registration/email-confirmation",
+  REGISTRATION_EMAIL_CONFIRMATION_PROCESS = "/registration/email-confirmation/:token",
+  REGISTRATION_USER_TYPE = "/registration/user-type",
+  REGISTRATION_JOB_PREFERENCES = "/registration/job-preferences",
+  REGISTRATION_USER_DETAILS = "/registration/user-details",
+  REGISTRATION_USER_CONTACT = "/registration/user-contact",
+  USER_PAGE = "/user/:userId",
+  INBOX = "/inbox/:conversationId?",
+}
